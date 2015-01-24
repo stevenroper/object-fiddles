@@ -159,11 +159,21 @@ var user = {
 /*Above you're given a user object. Loop through the user object checking to make sure
 that each value is truthy. If it's not truthy, remove it from the object. */
 
-  //Code Here
+for(var i in user) {
+    if(!user[i]){
+        delete user[i];
+    }
+}
+
+console.log(user);
 
 //Once you get your truthy Object, Change the remaining values in the object to be specific to you (name: 'your name', username: 'your username'), rather than my information.
 
-  //Code Here
+user.name = "Steven";
+user.pwHash = 'askdjhasdkfj';
+user.username = "steven.m.roper";
+
+console.log(user);
 
 
 
