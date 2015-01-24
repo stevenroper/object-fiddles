@@ -101,12 +101,19 @@ for(var i in me) {
 
 //Create an Object called 'album' with 5 keys named different song titles that you make up, with the values being the length of each song.
 
-  //Code Here
+var album = {
+    blueEyes: "1 min",
+    blueHeart: "2 min",
+    greenThumbs: "2.5 min",
+    blackSoul: "2 min",
+    redEyes: "3 min"
+};
 
 //Now, loop through your album object alerting every song title individually.
 
-  //Code Here
-
+for(var i in album) {
+    alert(i);
+}
 
 
 
